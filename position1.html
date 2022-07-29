@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position</title>
+    <style>
+        .kotak{
+            width: 200px;
+            height: 200px;
+        }
+        .kotak.satu{
+            background-color: blue;
+        }
+        .kotak.dua{
+            background-color: red;
+            /* relative: menyesuaikan posisi/naik satu dimensi  */
+            position: relative;
+            top: 30px;
+        }
+        .kotak.tiga{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- Position digunakan untuk merubah posisi elemen tanpa mempengaruhi elemen lainnya -->
+    <!-- Default: static -->
+    <div class="kotak satu"></div>
+    <div class="kotak dua"></div>
+    <div class="kotak tiga"></div>
+</body>
+</html>

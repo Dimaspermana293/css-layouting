@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute & Fixed</title>
+    <style>
+        .kotak{
+            width: 100px;
+            height: 100px;
+            margin: auto;
+        }
+        .kotak.satu{
+            background-color: blue;
+        }
+        .kotak.dua{
+            background-color: red;
+        }
+        .kotak.tiga{
+            background-color: green;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .container{
+            margin: auto;
+            width: 500px;
+            border: 2px solid black;
+            /* diberikan realtive agar kotak tiga sama dimensinya dengan container */
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <!-- Absolute -->
+    <!-- >ketika menggerakkan elemen dengan posisi absolute menggunakan
+    properti top,left,bottom dan right) maka ruang yang ditempati elemen tsb
+    dianggap tidak ada
+    -->
+    <!-- >ketika menggerakkan elemen dengan posisi absolute, elemen akan bergerak relatif terhadap posisi dari elemen parentnya,
+    selama elemen parentnya punya position non static juga(relative) -->
+    <!-- >jika kita memberikan posisi top:0,left:0, maka posisi elemen akan berada di ujung kiri atas parentya -->
+    <h1>Absolute dan Fixed</h1>
+    <div class="container">
+        <div class="kotak satu"></div>
+        <div class="kotak dua"></div>
+        <div class="kotak tiga"></div>
+    </div>
+</body>
+</html>

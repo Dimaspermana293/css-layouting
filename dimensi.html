@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimensi & Overflow</title>
+    <style>
+        .satu{
+            width: 500px;
+            height: 100px;
+            background-color: salmon;
+        }
+        .dua{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Dimensi: width dan height -->
+    <!-- Satuan dimensi:
+    px: absolute
+    %: relative, terhadap elemen pembungkusnya
+    in, cm, mm, pt(point), pc(paica) 
+    -->
+    <div class="satu">
+        <h1>Hello World</h1>
+    </div>
+    <div class="dua">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem a repellendus odit in veniam asperiores dolorum, iste excepturi cupiditate aliquam?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias reiciendis id ducimus blanditiis ratione recusandae necessitatibus nemo! Itaque, explicabo dicta.</p>
+    </div>
+    <!-- Overflow -->
+    <!-- visible(default): jika ada konten yang keluar dari pembungkusnya maka akan ditampilkan -->
+    <!-- auto: menambahkan scroll -->
+    <!-- hidden: akan menyembunyikan konten yang melebihi parentnya -->
+    <!-- scroll:menambahkan scroll,tapi ketika kontenya kurang maka scroll tetap muncul -->
+</body>
+</html>

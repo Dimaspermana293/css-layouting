@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            height: 2000px;
+        }
+        /* div{
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        } */
+        .satu{
+            background-color: blue;
+            z-index: 1;
+        }
+        .dua{
+            background-color: brown;
+            top: 50px;
+            left: 50px;
+        }
+        .tiga{
+            background-color: greenyellow;
+            top: 100px;
+            left: 100px;
+        }
+        .pop-up{
+            position: fixed;
+            top: 100px;
+            left: 100px;
+            right: 100px;
+            bottom: 100px;
+            /* position: absolute; */
+            background: #000;
+            opacity: 0.7;
+            font-size: 5rem;
+            color: white;
+            text-align: center;
+            /* line-height: 100px; */
+        }
+        .close{
+            background-color: white;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 1px solid black;
+            top: -15px;
+            right: -15px;
+            position: absolute;
+            text-align: center;
+            line-height: 50px;
+            font-size: 2rem;
+
+        }
+    </style>
+    <title>Z-Index</title>
+</head>
+<body>
+    <!-- Z-index adalah mengubah posisi Ketika elemen diposisikan, mereka dapat tumpang tindih dengan elemen lain. -->
+    <!-- <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div> -->
+    <div class="pop-up">
+        <div class="close">X</div>
+        <h1>POP UP</h1>
+    </div>
+    <h1>Selamat Datang</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae commodi non reprehenderit aliquam autem quam at iusto voluptas aspernatur maxime?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolorem tempore, quaerat odit laudantium quidem. Omnis distinctio libero ipsam in officia soluta praesentium maiores dolorem velit est dolore nostrum doloribus dolorum sapiente quia qui temporibus, sed ex ducimus nesciunt expedita vitae aliquid? Voluptas voluptate inventore neque aliquid illo quidem iusto!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolorem tempore, quaerat odit laudantium quidem. Omnis distinctio libero ipsam in officia soluta praesentium maiores dolorem velit est dolore nostrum doloribus dolorum sapiente quia qui temporibus, sed ex ducimus nesciunt expedita vitae aliquid? Voluptas voluptate inventore neque aliquid illo quidem iusto!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolorem tempore, quaerat odit laudantium quidem. Omnis distinctio libero ipsam in officia soluta praesentium maiores dolorem velit est dolore nostrum doloribus dolorum sapiente quia qui temporibus, sed ex ducimus nesciunt expedita vitae aliquid? Voluptas voluptate inventore neque aliquid illo quidem iusto!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolorem tempore, quaerat odit laudantium quidem. Omnis distinctio libero ipsam in officia soluta praesentium maiores dolorem velit est dolore nostrum doloribus dolorum sapiente quia qui temporibus, sed ex ducimus nesciunt expedita vitae aliquid? Voluptas voluptate inventore neque aliquid illo quidem iusto!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolorem tempore, quaerat odit laudantium quidem. Omnis distinctio libero ipsam in officia soluta praesentium maiores dolorem velit est dolore nostrum doloribus dolorum sapiente quia qui temporibus, sed ex ducimus nesciunt expedita vitae aliquid? Voluptas voluptate inventore neque aliquid illo quidem iusto!</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita dolorem tempore, quaerat odit laudantium quidem. Omnis distinctio libero ipsam in officia soluta praesentium maiores dolorem velit est dolore nostrum doloribus dolorum sapiente quia qui temporibus, sed ex ducimus nesciunt expedita vitae aliquid? Voluptas voluptate inventore neque aliquid illo quidem iusto!</p>
+</body>
+</html>

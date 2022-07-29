@@ -1,0 +1,30 @@
+/* div{
+    display: inline-block;
+} */
+.satu{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    /* margin-bottom: 30px; */
+    /* membuat elemen jadi ditengah parent(body) */
+    margin-left: auto;
+    margin-right: auto;
+}
+.dua{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    /* negative margin */
+    /* margin-top: -50px; */
+    /* membuat elemen jadi ditengah parent(body) */
+    margin-left: auto;
+    margin-right: auto;
+}
+.tiga{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    /* membuat elemen jadi ditengah parent(body) */
+    margin-left: auto;
+    margin-right: auto;
+}
